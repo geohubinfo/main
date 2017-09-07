@@ -86,7 +86,8 @@
 
                 // multiply - multiplies the numbers for each pixel of the top layer (nat geo)
                 // with the corresponding pixel for the bottom layer (hillshade).
-                context.globalCompositeOperation = "multiply";
+
+              context.globalCompositeOperation = "multiply";
                 images.forEach(function(image) {
                   context.drawImage(image, 0, 0, width, height);
                 });
@@ -149,6 +150,7 @@
 </head>
 
 <body>
+  <button><a href="https://www.facebook.com/groups/1902236423430978/">Join our group</a></button>
   <div id="viewDiv"></div>
 </body>
 
